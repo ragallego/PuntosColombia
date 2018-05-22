@@ -1,0 +1,5 @@
+C:\Users\rogallego\Desktop\Puntos Colombia\Solucion_PuntosColombia Final\PuntosColombia\PuntosColombia.Excepciones\bin\Debug\PuntosColombia.Excepciones.dll
+C:\Users\rogallego\Desktop\Puntos Colombia\Solucion_PuntosColombia Final\PuntosColombia\PuntosColombia.Excepciones\bin\Debug\PuntosColombia.Excepciones.pdb
+C:\Users\rogallego\Desktop\Puntos Colombia\Solucion_PuntosColombia Final\PuntosColombia\PuntosColombia.Excepciones\obj\Debug\PuntosColombia.Excepciones.csprojResolveAssemblyReference.cache
+C:\Users\rogallego\Desktop\Puntos Colombia\Solucion_PuntosColombia Final\PuntosColombia\PuntosColombia.Excepciones\obj\Debug\PuntosColombia.Excepciones.dll
+C:\Users\rogallego\Desktop\Puntos Colombia\Solucion_PuntosColombia Final\PuntosColombia\PuntosColombia.Excepciones\obj\Debug\PuntosColombia.Excepciones.pdb

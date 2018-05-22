@@ -1,0 +1,8 @@
+C:\Users\rogallego\Desktop\Puntos Colombia\Solucion_PuntosColombia Final\PuntosColombia\PuntosColombia\bin\Debug\PuntosColombia.exe.config
+C:\Users\rogallego\Desktop\Puntos Colombia\Solucion_PuntosColombia Final\PuntosColombia\PuntosColombia\bin\Debug\PuntosColombia.exe
+C:\Users\rogallego\Desktop\Puntos Colombia\Solucion_PuntosColombia Final\PuntosColombia\PuntosColombia\bin\Debug\PuntosColombia.pdb
+C:\Users\rogallego\Desktop\Puntos Colombia\Solucion_PuntosColombia Final\PuntosColombia\PuntosColombia\bin\Debug\PuntosColombia.Excepciones.dll
+C:\Users\rogallego\Desktop\Puntos Colombia\Solucion_PuntosColombia Final\PuntosColombia\PuntosColombia\bin\Debug\PuntosColombia.Excepciones.pdb
+C:\Users\rogallego\Desktop\Puntos Colombia\Solucion_PuntosColombia Final\PuntosColombia\PuntosColombia\obj\Debug\PuntosColombia.csprojResolveAssemblyReference.cache
+C:\Users\rogallego\Desktop\Puntos Colombia\Solucion_PuntosColombia Final\PuntosColombia\PuntosColombia\obj\Debug\PuntosColombia.exe
+C:\Users\rogallego\Desktop\Puntos Colombia\Solucion_PuntosColombia Final\PuntosColombia\PuntosColombia\obj\Debug\PuntosColombia.pdb
