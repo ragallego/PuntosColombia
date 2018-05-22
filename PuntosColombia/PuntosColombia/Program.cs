@@ -51,7 +51,7 @@ namespace PuntosColombia
 
                 // Constraint: n<=m
                 if (m < n)
-                    Close("El tamaño del segundo arreglo debe ser mayor o igual al primer arreglo, presione ENTER para salir");
+                    Close("La cantidad de datos ingresados, no correspnde al tamaño del vector, presione ENTER para salir");
 
                 // Constraint: 1<=n,m<=2*100000
                 if ((n < 1 || n >= 200000) || (m < 1 || m >= 200000))
@@ -77,7 +77,7 @@ namespace PuntosColombia
                             Close("Los valores deben ser numéricos, presione ENTER para salir");
                     }
                     else
-                        Close("El tamaño del primer arreglo no puede ser mayor o menor al definido inicialmente, presione ENTER para salir");
+                        Close("La cantidad de datos ingresados, no correspnde al tamaño del vector, presione ENTER para salir");
 
                     resultValue = 0;
                 }
@@ -102,7 +102,7 @@ namespace PuntosColombia
                             Close("Los valores deben ser numéricos, presione ENTER para salir");
                     }
                     else
-                        Close("El tamaño del segundo arreglo no puede ser mayor o menor al definido inicialmente, presione ENTER para salir");
+                        Close("La cantidad de datos ingresados, no correspnde al tamaño del vector, presione ENTER para salir");
 
                     resultValue = 0;
                 }
