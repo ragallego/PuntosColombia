@@ -23,25 +23,29 @@ namespace PuntosColombia
             {
                 //Validacion de ingreso de tamaño del primer vector
                 Console.WriteLine("Tamaño del primer Vector");
-                int.TryParse(Console.ReadLine(), out resultValue);
-
+                var tv1 = Console.ReadLine();
+                int.TryParse(tv1, out resultValue);
                 if (resultValue != 0)
                 {
                     n = resultValue;
                     resultValue = 0;
                 }
+                else if (tv1 == "0")
+                    Close("El tamaño del primer vector debe ser mayor a cero, presione ENTER para salir");
                 else
                     Close("El dato ingresado debe ser númerico, presione ENTER para salir");
 
                 //Validacion de ingreso de tamaño del segundo vector
                 Console.WriteLine("Tamaño del segundo vector");
-                int.TryParse(Console.ReadLine(), out resultValue);
-
+                var tv2 = Console.ReadLine();
+                int.TryParse(tv2, out resultValue);
                 if (resultValue != 0)
                 {
                     m = resultValue;
                     resultValue = 0;
                 }
+                else if (tv2 == "0")
+                    Close("El tamaño del segundo vector debe ser mayor a cero, presione ENTER para salir");
                 else
                     Close("El dato ingresado debe ser númerico, presione ENTER para salir");
 
