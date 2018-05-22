@@ -46,8 +46,8 @@ namespace PuntosColombia
                     Close("El dato ingresado debe ser númerico, presione ENTER para salir");
 
                 // Constraint: n<=m
-                if (m <= n)
-                    Close("El tamaño del segundo arreglo debe ser mayor al del primer arreglo, presione ENTER para salir");
+                if (m < n)
+                    Close("El tamaño del segundo arreglo debe ser mayor o igual al primer arreglo, presione ENTER para salir");
 
                 // Constraint: 1<=n,m<=2*100000
                 if ((n < 1 || n >= 200000) || (m < 1 || m >= 200000))
@@ -67,11 +67,13 @@ namespace PuntosColombia
 
                         if (resultValue != 0)
                             arr[i] = resultValue;
+                        else if (val[i] == "0")
+                            arr[i] = resultValue;
                         else
                             Close("Los valores deben ser numéricos, presione ENTER para salir");
                     }
                     else
-                        Close("El tamaño del arreglo no puede ser mayor al definido inicialmente, presione ENTER para salir");
+                        Close("El tamaño del primer arreglo no puede ser mayor o menor al definido inicialmente, presione ENTER para salir");
 
                     resultValue = 0;
                 }
@@ -83,18 +85,20 @@ namespace PuntosColombia
                 for (int i = 0; i < m; i++)
                 {
                     // Constraint: x intersecion B
-                    int tamano = val.Length;
-                    if (tamano == n)
+                    int tamano2 = val2.Length;
+                    if (tamano2 == m)
                     {
                         int.TryParse(val2[i], out resultValue);
 
                         if (resultValue != 0)
                             brr[i] = resultValue;
+                        else if (val2[i] == "0")
+                            brr[i] = resultValue;
                         else
                             Close("Los valores deben ser numéricos, presione ENTER para salir");
                     }
                     else
-                        Close("El tamaño del arreglo no puede ser mayor al definido inicialmente, presione ENTER para salir");
+                        Close("El tamaño del segundo arreglo no puede ser mayor o menor al definido inicialmente, presione ENTER para salir");
 
                     resultValue = 0;
                 }
@@ -107,7 +111,7 @@ namespace PuntosColombia
 
                 // Constraint: Xmax - Xmin < 101
                 if (diff > 100)
-                    Close("La diferencia entre el valor máximo y minimo del segundo arreglo no debe ser menor o igual a 100, presione ENTER para salir");
+                    Close("La diferencia entre el valor máximo y minimo del segundo arreglo debe ser menor o igual a 100, presione ENTER para salir");
 
                 Close(string.Concat("Los números faltantes son: ", String.Join(" ", result)));
             }
